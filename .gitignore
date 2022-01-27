@@ -1,0 +1,4 @@
+build
+.gradle
+/ts-client/dist/
+node_modules/

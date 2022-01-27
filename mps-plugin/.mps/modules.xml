@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/modelix-model-check.mps-plugin.build/modelix-model-check.mps-plugin.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.modelix.modelcheck.mps.plugin/org.modelix.modelcheck.mps.plugin.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+{
+  "name": "ts-client",
+  "version": "0.0.2",
+  "description": "A typescript client for modelix model check server",
+  "license": "Apache License 2.0",
+  "private": false,
+  "main": "dist/client",
+  "typings": "dist/client",
+  "devDependencies": {
+    "@types/jasmine": "^3.10.3",
+    "fetch-mock": "^9.11.0",
+    "jasmine-core": "^4.0.0",
+    "karma": "^6.3.16",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.2.0",
+    "karma-firefox-launcher": "^2.1.2",
+    "karma-jasmine": "^4.0.1",
+    "karma-typescript": "^5.5.3",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "karma start karma.conf.js --single-run",
+    "test:watch": "karma start karma.conf.js --auto-watch"
+  },
+  "files": [
+    "dist/src/client.js",
+    "dist/src/client.d.ts"
+  ]
+}

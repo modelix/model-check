@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "rootDir": ".",
+    "outDir": "./dist",
+    "declaration": true,
+    "lib": [
+      "es2016",
+      "dom",
+      "es5"
+    ]
+  },
+  //"include": ["src/**/*"],
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Recommended"
+}
